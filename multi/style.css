@@ -1,3 +1,4 @@
+/*home page */
 #home{
     background-image: url(images/maang-pic.jpg);
     background-repeat: no-repeat;
@@ -34,6 +35,9 @@
 #google{
     opacity: 0;
 }
+
+
+/* Meta page */
 
 
   
