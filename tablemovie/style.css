@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    margin:auto;
+   justify-content: center;
+}
+
+img{
+    width: 120px;
+
+}
+table{
+    background-color: rgba(0, 0,0, 0.5);
+}
+h2{
+    color: white;
+    background-color:  rgba(0, 0,0, 0.5);
+    text-align: center;
+}
