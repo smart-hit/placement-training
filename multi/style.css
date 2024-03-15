@@ -41,5 +41,24 @@ a{
 
 /* Meta page */
 
+.meta-main{
+    width: 100%; 
+}
+#meta-heading{
+    margin-left: 48%;
+}
+.meta-link-maang{
+    font-size: large;
 
+}
+.meta-About{
+    margin-top: 50px;
+    display: flex;
+    
+width: 100%;
+}
+.meta-About-img{
+    padding-right: 10px;
+   
+}
   
