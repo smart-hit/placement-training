@@ -2,6 +2,8 @@ body{
     background-image: url("images/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(53, 53, 53);
+    background-blend-mode: overlay;
 }
 input{
     color: #ffffff;
@@ -14,7 +16,7 @@ input{
     margin: auto;
     display: grid;
     justify-content: space-evenly;
-    margin-top: 10%;
+    margin-top: 5%;
     row-gap: 10px;
     background: rgba(16, 15, 15, 0.772);
     width: fit-content;
