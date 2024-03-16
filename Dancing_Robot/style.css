@@ -40,9 +40,9 @@
 }
 .rarm,.larm{
     width: 20px;
-    height: 40px;
+    height: 70px;
     background-color: chartreuse;
-    border-radius: 0 0 50% 50%;
+    border-radius: 50% 50% 50% 50%;
 }
 .leg{
     display: flex;
@@ -69,16 +69,25 @@
 .main:hover  {
     animation:mainanime 1s 0.1s infinite;
 }
+.main:hover  .rleg{
+    animation:rleganime 1s 0.1s infinite;
+}
+.main:hover  .lleg{
+    animation:lleganime 1s 0.1s infinite;
+}
 @keyframes faceanime {
-    0%{
+    25%{
         transform: rotate(45deg);
     }
     50%{
         background-color: aqua;
     transform: rotate(0deg);
     }
-    100%{
+    75%{
         transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
 @keyframes armanimel{
@@ -91,6 +100,9 @@
         }
         75%{
             transform: rotate(-90deg);
+            }
+            100%{
+                transform:rotate(0deg);
             }
 }
 @keyframes armanimer{
@@ -105,7 +117,11 @@
             transform: rotate(-90deg);
             }
 
+        
+        100%{
+            transform:rotate(0deg);
         }
+    }
         @keyframes mainanime{
             0%{
                 background-color: red;
@@ -123,3 +139,37 @@
                         background-color: darksalmon;
                     }
                 }
+@keyframes lleganime {
+    25%{
+        transform: rotate(90deg);
+        }
+        50%{
+            transform: rotate(0deg);
+            background-color: aqua;
+            }
+            75%{
+                transform: rotate(90deg);
+                }
+    
+            
+            100%{
+                transform:rotate(0deg);
+            }
+}
+@keyframes rleganime {
+    25%{
+        transform: rotate(-90deg);
+        }
+        50%{
+            transform: rotate(0deg);
+            background-color: aqua;
+            }
+            75%{
+                transform: rotate(-90deg);
+                }
+    
+            
+            100%{
+                transform:rotate(0deg);
+            }
+}
