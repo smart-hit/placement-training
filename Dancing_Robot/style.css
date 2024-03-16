@@ -1,0 +1,125 @@
+.main{
+    background-color: black;
+    width: 300px;
+    height:300px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 50%;
+}
+.face{
+    width: 120px;
+    height: 100px;
+    background-color: chartreuse;
+     border-radius:50% 50% 0% 0%;
+     margin: auto;
+}
+.eye{
+    margin: auto;
+    padding-top:45%;
+    display: flex;
+    justify-content: space-around;
+}
+.eyeball{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+ border-radius: 50%;
+} 
+.bodymain{
+    margin: auto;
+    width: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+} 
+.bodypart{
+    width: 120px;
+    height: 120px;
+    background-color: chartreuse;
+    border-radius: 0% 0% 50% 50%;
+}
+.rarm,.larm{
+    width: 20px;
+    height: 40px;
+    background-color: chartreuse;
+    border-radius: 0 0 50% 50%;
+}
+.leg{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin: auto;
+    margin-top: -25px;
+}
+.lleg,.rleg{
+    width: 20px;
+    height: 50px;
+    background-color: chartreuse;
+    border-radius: 0 0 50% 50%;
+}
+.main:hover .face{
+    animation:faceanime 1s 0.1s infinite;
+}
+.main:hover .larm {
+    animation:armanimel 1s 0.1s infinite;
+}
+.main:hover .rarm {
+    animation:armanimer 1s 0.1s infinite;
+}
+.main:hover  {
+    animation:mainanime 1s 0.1s infinite;
+}
+@keyframes faceanime {
+    0%{
+        transform: rotate(45deg);
+    }
+    50%{
+        background-color: aqua;
+    transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+@keyframes armanimel{
+    25%{
+    transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        background-color: aqua;
+        }
+        75%{
+            transform: rotate(-90deg);
+            }
+}
+@keyframes armanimer{
+    25%{
+    transform: rotate(-90deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        background-color: aqua;
+        }
+        75%{
+            transform: rotate(-90deg);
+            }
+
+        }
+        @keyframes mainanime{
+            0%{
+                background-color: red;
+            }
+            25%{
+           background-color: blueviolet;
+            }
+            50%{
+              background-color: orange;
+                }
+                75%{
+  background-color:cyan ;
+                    }
+                    100%{
+                        background-color: darksalmon;
+                    }
+                }
