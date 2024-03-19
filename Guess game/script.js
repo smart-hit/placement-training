@@ -1,5 +1,5 @@
 var randomnum=(Math.ceil(Math.random()*100));
-var count=1;
+var count=0;
 function checkNumber(){
     var num=document.getElementById("in").value;
     if(num==randomnum){
