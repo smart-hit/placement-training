@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form>
+            <div>
+                <div>
+                    <h1>Number Guess Application</h1>
+                </div>
+                <div>
+                    <p>Select a number between 1 to 100 and Guess it!!!</p>
+                </div>
+                <div class="input-number">
+                    <div>
+                    <label for="in">Guess a number</label>
+                </div>
+                <div>
+                    <input type="number" id="in" placeholder="enter the number"/>
+                </div>
+                </div>
+                <div id="result"> </div>
+                <div class="tries">
+                    <div>
+                        <h1>No of tries:</h1>
+                    </div>
+                    <div>
+                        <p id="count">0</p>
+                    </div>
+                    <div class="buttons">
+                        <div><button type="button" onclick="checkNumber()">Check</button></div>
+                        <div><button type="reset">Reset</button></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
