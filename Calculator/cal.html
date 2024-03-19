@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cal.css">
+       
+    </head>
+    <body>
+        <div class="main">
+        <div class="form1">
+        <h1>calculator</h1>
+        <form>
+            <label for="number1">number1</label><br>
+            <input id="number1" type="number" onwheel="return false;" class="reduce" /><br>
+            <label for="number2">number2</label><br>
+            <input id="number2" type="number" onwheel="return false;" class="reduce" /><br>    
+    <div class="operant">
+        <div class="con">
+              <label for="sum">+</label><br>
+              <input class="messageCheckbox" type="checkbox" id="sum" name="sum" value='+' ><br>
+        </div>
+        <div class="con">
+               <label for="subration">-</label><br>
+               <input class="messageCheckbox" type="checkbox" id="subration" name="subration" value='-'><br>
+        </div>
+        <div class="con">
+              <label for="multi">*</label><br>
+               <input class="messageCheckbox" type="checkbox" id="multi" name="multi" value='*'><br>
+        </div>
+        <div class="con">
+              <label for="divi">/</label><br>
+              <input class="messageCheckbox" type="checkbox" id="divi" name="divi" value='/'>
+        </div> 
+    </div> 
+  <div class="button1">
+   <button onclick="result()" type="button">result</button>
+   <p id="para"> </p>
+</div>
+<div class="button2">
+    <input type="reset"></input>
+</div>
+        </form>
+        </div>
+    </div>
+    <script src="cal.js"> </script>
+    </body>
+</html>
