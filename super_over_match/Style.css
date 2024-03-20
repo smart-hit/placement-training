@@ -1,0 +1,106 @@
+body{
+    background-image: url(image/ipl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    color: white;
+}
+.main{
+    border: solid black;
+    margin: auto;   
+    width: fit-content;
+    margin-top: 5%;
+    background-color: rgba(21, 0, 0, 0.466);
+}
+.names{
+    margin: auto;
+   color: rgb(212, 255, 0);
+    justify-content: space-around;
+    display: flex;
+
+}
+.name1{
+    
+    margin-top: 0%;
+   margin-left: 5%;
+
+}
+.name2{
+    color:blue;
+    margin-top: 0%;
+     margin-right: 5%;
+}
+.players{
+    color: rgb(212, 255, 0);
+display: flex;
+margin-top: 5px;
+   margin-bottom: 5%;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: white;
+}
+.player1{
+    display: flex;
+   margin-left: 10px;
+   border: solid rgb(238, 238, 22);
+}
+.player2{
+    display: flex;
+    border: solid rgb(19, 115, 210);
+}
+.circle{
+  margin-left: 30px;
+    height: 20px;
+    width: 20px;
+color: white;
+    border-radius: 50%;
+    margin:15px;
+}
+.scores{
+    display: flex;
+    
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.buttons{
+    display: flex;
+   margin: auto;
+   width: 50%;
+   margin-bottom: 7%;
+   justify-content: space-evenly;
+}
+#result{
+   text-align: center;
+   margin-bottom: 5%;
+}
+button{
+    padding: 5px;
+    background-color: burlywood;
+    border: none;
+}
+button:hover{
+    background-color: aliceblue;
+  
+}
+.logo{
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid rgb(250, 239, 114);
+    background-color: yellow;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+.logos{
+    margin: auto;
+    margin-top: 10%;
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+}
