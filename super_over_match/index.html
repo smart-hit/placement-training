@@ -18,7 +18,7 @@
         <div class="name2"><p>MI</p></div>
     </div>
     <div class="players">
-      <div class="player1">
+      <div class="player1" id="team1">
         <div class="circle">_</div>
         <div class="circle">_</div>
         <div class="circle">_</div>
@@ -27,11 +27,11 @@
         <div class="circle">_</div>
       </div>
       <div class="scores">
-        <div id="player1_score"> 0</div>
+        <div id="team1_score"> 0</div>
         <div> - </div>
-        <div id="player2_score">0</div>
+        <div id="team2_score">0</div>
       </div>
-      <div class="player2">
+      <div class="player2" id="team2">
         <div class="circle">_</div>
         <div class="circle">_</div>
         <div class="circle">_</div>
@@ -41,8 +41,8 @@
       </div>
     </div>
     <div class="buttons">
-    <div><button type="button" onclick="">Play</button></div>
-    <div><button type="reset">Reset</button></div>
+    <div><input type="button" onclick="handleStrike()" value="Bat" id="strike"></div>
+    <div><input type="submit" value="reset" onClick="window.location.reload();" /></div>
     </div>
     <div id="result"></div>
     </div>
