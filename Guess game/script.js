@@ -14,3 +14,6 @@ function checkNumber(){
     count++;
     document.getElementById("count").innerHTML=count;
 }
+function makeCountZero(){
+count=0;
+}
