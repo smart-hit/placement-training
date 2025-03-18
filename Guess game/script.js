@@ -18,4 +18,5 @@ function makeCountZero(){
       count=0;
       document.getElementById("count").innerHTML=count;
       randomnum=(Math.ceil(Math.random()*100));
+     document.getElementById("result").textContent="";
 }
